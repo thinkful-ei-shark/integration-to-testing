@@ -1,5 +1,6 @@
 function sort(list) {
-  for (let i = 2; i < list.length; i++) {
+  //changed i=1 (Was 2 before) to pass the test
+  for (let i = 1; i < list.length; i++) {
     let j = i;
     while (j > 0 && list[j - 1] > list[j]) {
       let temp = list[j];
